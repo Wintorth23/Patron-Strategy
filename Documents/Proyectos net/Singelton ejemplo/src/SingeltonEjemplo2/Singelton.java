@@ -38,10 +38,16 @@ public class Singelton {
              
              break;
          case 2:
-         System.out.println(c.getUrl());
+        System.out.println(c.getUrl());
 
         System.out.println(c.getBaseDatos());
-         break;    
+         break;
+         case 3:
+             System.out.println("Saliendo del sistema");
+         break;
+         default:
+             System.out.println("Eleccion Incorrecta");
+        
      }  
         }while(op !=3);
     }
